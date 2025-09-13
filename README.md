@@ -18,7 +18,7 @@ npm install n8n-nodes-crowd-tt-explorer
 
 ## Credentials Setup
 
-1. Create a new credential of type **"Tappy API"**
+1. Create a new credential of type **"Crowd TT API"**
 2. Enter your TapTools API key in the **API Key** field
 3. Save the credential
 
