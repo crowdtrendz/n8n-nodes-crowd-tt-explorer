@@ -6,7 +6,7 @@ import {
 export class TapToolsApi implements ICredentialType {
 	name = 'tapToolsApi';
 	displayName = 'Crowd TT API';
-	documentationUrl = 'https://docs.taptools.io/';
+	documentationUrl = 'https://openapi.taptools.io/';
 	properties: INodeProperties[] = [
 		{
 			displayName: 'API Key',
