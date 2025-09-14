@@ -11,7 +11,7 @@ export class CrowdTtExplorer implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Crowd TT Explorer',
 		name: 'crowdTtExplorer',
-		icon: 'file:crowd-tt.png',
+		icon: 'file:crowd-tt1.png',
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
