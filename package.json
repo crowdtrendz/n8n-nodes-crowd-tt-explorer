@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-crowd-tt-explorer",
-  "version": "1.0.5",
+  "version": "1.0.14",
   "description": "n8n community node for TapTools API - Crowd TT Explorer",
   "keywords": [
     "n8n-community-node-package"
@@ -33,7 +33,8 @@
       "dist/credentials/TapToolsApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/CrowdTtExplorer/CrowdTtExplorer.node.js"
+      "dist/nodes/CrowdTtExplorer/CrowdTtExplorer.node.js",
+      "dist/nodes/CrowdTtExplorer/WalletHistoryPrettify.node.js"
     ]
   },
   "devDependencies": {

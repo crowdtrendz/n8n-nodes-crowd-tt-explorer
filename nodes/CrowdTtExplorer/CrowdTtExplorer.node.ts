@@ -15,7 +15,7 @@ export class CrowdTtExplorer implements INodeType {
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
-		description: 'Interact with TapTools API',
+		description: 'Interact with TT API',
 		defaults: {
 			name: 'Crowd TT Explorer',
 		},
@@ -49,8 +49,8 @@ export class CrowdTtExplorer implements INodeType {
 				type: 'string',
 				required: true,
 				default: '',
-				placeholder: 'addr1...',
-				description: 'The wallet address to query',
+				placeholder: 'stake1...',
+				description: 'The stake wallet address to query',
 				displayOptions: {
 					show: {
 						operation: ['getWalletTokenTrades'],
